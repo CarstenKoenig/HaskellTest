@@ -20,5 +20,7 @@ executable HsTest
   build-depends:       base >= 4.7 && < 5,
                        array,
                        containers,
+                       fused-effects,
+                       hspec,
                        mtl,
-                       fused-effects
+                       QuickCheck
